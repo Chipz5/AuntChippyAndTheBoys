@@ -1,0 +1,14 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/Day1.rpy", line 132: expected menuitem
+    show chippy_chibi face_6
+    ^
+
+File "game/Day1.rpy", line 191: expected menuitem
+    hide chippy
+    ^
+
+Ren'Py Version: Ren'Py 7.4.4.1439
+Thu Jun  3 14:23:44 2021

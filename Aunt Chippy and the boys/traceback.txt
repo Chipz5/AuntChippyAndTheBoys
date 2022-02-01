@@ -1,0 +1,20 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+After initialization, but before game start.
+WindowsError: [Error 2] The system cannot find the file specified
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/bootstrap.py", line 326, in bootstrap
+    renpy.main.main()
+  File "renpy/main.py", line 567, in main
+    renpy.dump.dump(False)
+  File "renpy/dump.py", line 260, in dump
+    os.rename(new, filename)
+WindowsError: [Error 2] The system cannot find the file specified
+
+Windows-10-10.0.19041
+Ren'Py 7.4.4.1439
+Aunt Chippy and the boys 1.0
+Tue May 18 16:24:50 2021
